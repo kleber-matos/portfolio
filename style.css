@@ -1,0 +1,200 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+/*Header*/
+header {
+  display: flex;
+
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a,
+li {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+
+.menu li {
+  margin: 1rem;
+}
+
+.menu a:hover {
+  transition: 1s;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.705);
+}
+
+.contact {
+  color: black;
+  font-weight: 700;
+}
+
+/*Main destaques*/
+
+.destaque {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 70vh;
+}
+
+.destaque__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 250px;
+}
+.destaque__info h1 {
+  font-size: 3rem;
+}
+.destaque__info ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.destaque__info span {
+  font-weight: 700;
+}
+
+.perfil img {
+  width: 320px;
+  border-radius: 100%;
+}
+
+/*Sobre Mim*/
+
+.sobremim {
+  background-color: #eaf2fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.sobremim__box {
+  width: 40%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.sobremim__box h2 {
+  font-size: 3rem;
+}
+
+.sobremim__box p {
+  font-size: 1rem;
+}
+
+.assinatura {
+  width: 150px;
+}
+
+/*Skills*/
+.skills {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80vh;
+}
+
+.skills__habilidade,
+.hobbies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.skills__item,
+.hobbies__item {
+  width: 210px;
+  height: 210px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skills__item i,
+.hobbies__item i {
+  font-size: 10rem;
+}
+
+/*Projetos*/
+
+.projetos {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 70%;
+  height: 50vh;
+}
+
+.text {
+  text-align: center;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.projetos__item {
+  margin-top: 1rem;
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
+  height: 200px;
+  width: 550px;
+  border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.projetos__img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.projetos__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.formulario {
+  height: 50vh;
+  background-color: #eaf2fd;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 10vh;
+}
