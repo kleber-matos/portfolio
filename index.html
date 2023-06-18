@@ -144,105 +144,90 @@
             <p>Andar de skate</p>
           </div>
           <div class="hobbies__item">
-            <i class="fa-solid fa-headphones"></i>
-            <p>Ouvir música</p>
-          </div>
-          <div class="hobbies__item">
             <i class="fa-solid fa-person-biking"></i>
             <p>Andar de bicicleta</p>
           </div>
           <div class="hobbies__item">
-            <i class="fa-solid fa-clapperboard"></i>
-            <p>Gosto de ver filmes</p>
+            <i class="fa-solid fa-headphones"></i>
+            <p>Ouvir música</p>
           </div>
         </div>
       </section>
 
       <!--Projetos-->
-      <section class="text">
-        <h2>Experincia profissional</h2>
-        <div class="center">
-          <div class="projetos">
-            <div class="projetos__item">
-              <div class="projetos__description">
-                <h3>Site da Pepsi</h3>
-                <p>Desenvolvido com React</p>
-                <p>Utilizando Hook useState</p>
-
-                <button>
-                  <a
-                    target="_blank"
-                    href="https://github.com/kleber-matos/sitepepsi"
-                    >Repositorio</a
-                  >
-                </button>
-                <button disabled>Ver demo</button>
+      <section class="projetos">
+        <h2>Experiência profissional</h2>
+        <div class="projetos__space">
+          <div class="projetos__card">
+            <div class="projetos__info">
+              <h2>Site da Pepsi</h2>
+              <p>Desenvolvido com React</p>
+              <p>Utilizando Hook UseState</p>
+              <div class="buttons">
+                <a href="">
+                  <button>Repositorio</button>
+                </a>
+                <a href="">
+                  <button disabled>Repositorio</button>
+                </a>
               </div>
+            </div>
+            <figure>
               <img
                 class="projetos__img"
                 src="https://user-images.githubusercontent.com/94052079/230173984-d34380d6-8c42-4ba6-a5a2-7aec325c9fdd.png"
                 alt=""
               />
-            </div>
-            <div class="projetos__item">
-              <div class="projetos__description">
-                <h3>Site blog</h3>
-                <p>Desenvolvido com Angular</p>
-                <p>Utilizando rotas</p>
-                <button>
-                  <a
-                    target="_blank"
-                    href="https://github.com/kleber-matos/Angular-blog__avatar"
-                    >Repositorio</a
-                  >
-                </button>
-                <button disabled>Ver demo</button>
+            </figure>
+          </div>
+          <div class="projetos__card">
+            <div class="projetos__info">
+              <h2>Landing page</h2>
+              <p>Utilizando HTML5 e CSS3</p>
+
+              <div class="buttons">
+                <a href="">
+                  <button>Repositorio</button>
+                </a>
+                <a href="">
+                  <button disabled>Repositorio</button>
+                </a>
               </div>
+            </div>
+            <figure>
               <img
                 class="projetos__img"
-                src="https://user-images.githubusercontent.com/94052079/204176152-004d61cf-6aa1-4694-85d8-1db7be003375.png"
+                src="https://user-images.githubusercontent.com/94052079/243724725-cf389710-4c5e-4613-a0ed-06a5f07ec687.png"
                 alt=""
               />
-            </div>
-            <div class="projetos__item">
-              <div class="projetos__description">
-                <h3>landing page</h3>
-                <p>Desenvolvido com Html e Css</p>
-                <button>
-                  <a
-                    target="_blank"
-                    href="https://github.com/kleber-matos/emailpages"
-                    >Repositorio</a
-                  >
-                </button>
-                <button disabled>Ver demo</button>
-              </div>
-              <img
-                class="projetos__img"
-                src="https://user-images.githubusercontent.com/94052079/244386233-78105cdb-bec3-4b30-ac88-14985feb76f0.png"
-                alt=""
-              />
-            </div>
-            <div class="projetos__item">
-              <div class="projetos__description">
-                <h3>Site Instagram</h3>
-                <p>Desenvolvido com Html e Css</p>
-                <p>Utilizando Tailwind CSS</p>
-                <button>Repositorio</button>
-                <button disabled>Ver demo</button>
-              </div>
-              <img
-                class="projetos__img"
-                src="https://user-images.githubusercontent.com/94052079/223546468-5c465155-4a2d-4ee6-8f0d-f3e592c325b8.png"
-                alt=""
-              />
-            </div>
+            </figure>
           </div>
         </div>
       </section>
 
-      <!--Form-->
-      <section class="formulario"></section>
+      <!--Form Contato-->
+      <section class="contato">
+        <figure>
+          <img src="" alt="" />
+        </figure>
+
+        <form action="">
+          <h3>Contato</h3>
+          <p>
+            Quer entrar em contato comigo? <br />
+            Preencha o formulário ao lado e entrarei em contato o mais rápido
+            possível.
+          </p>
+
+          <label for="nome">Nome</label>
+          <input type="text" />
+          <label for="email">E-mail</label>
+          <input type="email" />
+          <input type="text" placeholder="Assunto" />
+          <input class="mensagem" type="text" placeholder="Mensagem" />
+          <button>Enviar mensagem</button>
+        </form>
+      </section>
     </main>
 
     <footer>

@@ -140,61 +140,77 @@ li {
 }
 
 /*Projetos*/
-
 .projetos {
+  height: 65vh;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
-  width: 70%;
-  height: 50vh;
-}
-
-.text {
-  text-align: center;
-  height: 70vh;
-  display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  text-align: center;
 }
 
-.projetos__item {
-  margin-top: 1rem;
+.projetos__space {
   display: flex;
-  padding: 10px;
-  justify-content: space-around;
-  height: 200px;
-  width: 550px;
-  border-radius: 10px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .projetos__img {
-  width: 300px;
+  width: 500px;
+  height: 100%;
   border-radius: 10px;
 }
 
-.projetos__description {
+.projetos__card {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 10px;
+  display: flex;
+  margin: 5px;
+}
+
+.projetos__info {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   padding: 10px;
 }
 
-.center {
+/*Form Contato*/
+
+.contato {
+  height: 80vh;
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-}
-
-.formulario {
-  height: 50vh;
+  align-items: center;
   background-color: #eaf2fd;
 }
 
-footer {
+form {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  align-items: center;
-  height: 10vh;
+  justify-content: space-between;
+  height: 350px;
+}
+
+form h3 {
+  font-weight: 800;
+}
+
+form button {
+  width: 40%;
+  height: 30px;
+  background-color: #c2dcff;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+input {
+  height: 30px;
+  border: none;
+  border-bottom: solid 2px #c2dcff;
+  border-radius: 5px;
+}
+
+.mensagem {
+  height: 60px;
 }
