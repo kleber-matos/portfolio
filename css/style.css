@@ -109,8 +109,8 @@ li {
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  height: 80vh;
+  justify-content: space-evenly;
+  height: 60vh;
 }
 
 .hobbie_text {
