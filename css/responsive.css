@@ -1,0 +1,37 @@
+@media (max-width: 600px) {
+  header {
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+  }
+
+  .destaque__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 55vh;
+    background-color: aqua;
+  }
+  .destaque {
+    width: 100vw;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: blue;
+    height: 100vh;
+  }
+
+  .sobremim__box {
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+
+  .skills {
+    height: 100vh;
+    background-color: rebeccapurple;
+  }
+}

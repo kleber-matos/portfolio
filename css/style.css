@@ -113,6 +113,10 @@ li {
   height: 80vh;
 }
 
+.hobbie_text {
+  text-align: center;
+}
+
 .skills__habilidade,
 .hobbies {
   display: flex;
@@ -122,7 +126,8 @@ li {
 
 .skills__item,
 .hobbies__item {
-  width: 210px;
+  width: 100%;
+  max-width: 300px;
   height: 210px;
   margin: 20px;
   border-radius: 10px;
@@ -155,7 +160,8 @@ li {
 }
 
 .projetos__img {
-  width: 500px;
+  width: 100%;
+  max-width: 500px;
   height: 100%;
   border-radius: 10px;
 }
