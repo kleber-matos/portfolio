@@ -24,17 +24,17 @@ export default function index({
     <>
       <div className="flex justify-center items-center ">
         <div className="mt-20 w-9/12  justify-between flex lg:flex-row flex-col text-center lg:text-start items-center">
-          <img className="  lg:w-1/2" src={image} alt="imagem do projeto" />
+          <img className="  lg:w-5/12" src={image} alt="imagem do projeto" />
 
           <div className="lg:w-2/5 flex flex-col justify-between ">
-            <h2 className="lg:text-4xl font-semibold">{title}</h2>
-            <p className="text-justify">{description}</p>
+            <h2 className="lg:text-4xl font-semibold mb-2">{title}</h2>
+            <p className="text-justify text-sm">{description}</p>
 
             <div className="flex w-5/5   lg:3/5 flex-wrap justify-center lg:justify-start mt-5">
               {tec.map((e: any, id: number) => (
                 <span
                   key={id}
-                  className="bg-[#E0E0E0] w-2/5 lg:w-3/12 h-9 flex justify-center items-center rounded-sm font-semibold text-[#1E3A5F] mr-3  text-xs mt-2 p-1"
+                  className="bg-[#E0E0E0] w-2/5 lg:w-3/12 h-9 flex justify-center items-center rounded-sm font-semibold text-[#1E3A5F] mr-3  text-xs mt-2 p-2"
                 >
                   {e}
                 </span>

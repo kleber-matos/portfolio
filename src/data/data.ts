@@ -12,7 +12,7 @@ export const data = [
       "React",
       "Styled-Components",
       "UseParams",
-      "React-router-dom",
+      "React-Router",
       "UseContext",
     ],
     previa: "https://devbuilder-kappa.vercel.app/",
@@ -23,7 +23,7 @@ export const data = [
     title: "Projeto Stream de filmes ",
     description:
       "Este projeto permite que você assista filmes e séries gratuitamente. É uma aplicação desenvolvida em ReactJS, utilizando diversas bibliotecas para fornecer experiência.",
-    tec: ["React", "Styled-Components", "Axios", "React-router-dom"],
+    tec: ["React", "Styled-Components", "Axios", "React-Router"],
     previa: "https://cine-flix-chi.vercel.app/",
     code: "https://github.com/kleber-matos/cine-flix",
   },
