@@ -23,12 +23,12 @@ export default function index({
   return (
     <>
       <div className="flex justify-center items-center ">
-        <div className="mt-20 w-9/12  justify-between flex lg:flex-row flex-col text-center lg:text-start items-center">
+        <div className="mt-20 w-11/12 justify-between flex lg:flex-row flex-col text-center lg:text-start items-center">
           <img className="  lg:w-1/2" src={image} alt="imagem do projeto" />
 
-          <div className="lg:w-2/5 flex flex-col justify-between ">
-            <h2 className="lg:text-4xl font-semibold">{title}</h2>
-            <p>{description}</p>
+          <div className="lg:w-2/5 flex flex-col justify-between text-justify">
+            <h2 className="lg:text-4xl font-semibold mb-2">{title}</h2>
+            <p className="text-sm">{description}</p>
 
             <div className="flex w-5/5   lg:3/5 flex-wrap justify-center lg:justify-start mt-5">
               {tec.map((e: any, id: number) => (
